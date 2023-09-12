@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>One App to Build Them All</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+	<form id="form">
+		<div class="mb-3 d-flex">
+			<input type="text" class="form-control" id="directoryPath" placeholder="Select fadvuk theme folder" disabled
+				   style="margin-right: 10px; font-size: 14px;" />
+			<input type="button" class="btn btn-secondary w-auto" value="Browse" id="browse">
+		</div>
+		<div class="mb-3">
+			<input id="buildKey" type="text" placeholder="Build key (Comma separated)" class="form-control">
+		</div>
+		<div class="mb-3">
+			<input name="uk" type="checkbox" class="btn-check" id="btn-check-4" autocomplete="off">
+			<label class="btn btn-outline-primary" for="btn-check-4">UK</label>
+
+			<input name="de" type="checkbox" class="btn-check" id="btn-check-5" autocomplete="off">
+			<label class="btn btn-outline-primary" for="btn-check-5">DE</label>
+
+			<input name="in" type="checkbox" class="btn-check" id="btn-check-6" autocomplete="off">
+			<label class="btn btn-outline-primary" for="btn-check-6">IN</label>
+
+			<input name="health" type="checkbox" class="btn-check" id="btn-check-7" autocomplete="off">
+			<label class="btn btn-outline-primary" for="btn-check-7">Health</label>
+
+			<input name="home" type="checkbox" class="btn-check" id="btn-check-8" autocomplete="off">
+			<label class="btn btn-outline-primary" for="btn-check-8">Home</label>
+
+			<input name="betting" type="checkbox" class="btn-check" id="btn-check-9" autocomplete="off">
+			<label class="btn btn-outline-primary" for="btn-check-9">Betting</label>
+		</div>
+		<div class="row">
+			<div class="col">
+				<button type="submit" name="watch" class="btn btn-warning w-100">Watch All</button>
+			</div>
+			<div class="col">
+				<button type="submit" name="production" class="btn btn-success w-100">Build All</button>
+			</div>
+		</div>
+	</form>
+	<script src="script.js"></script>
+</body>
+
+</html>
